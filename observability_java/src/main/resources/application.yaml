@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: observability_java
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: prometheus, health, mappings
